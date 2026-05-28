@@ -76,6 +76,7 @@ int main()
 ```
 예시 코드는 이렇게 5명의 철학자가 5개의 포크를 공유하는 형태이다.  
 이 코드는 아무런 제한을 하지 않아 5명의 철학자가 각자 1개의 포크를 갖게 되는 Deadlock이 나타난다.
+![Deadlock](./img/Deadlock.png)
 ## Solution
 ### Request All Resources
 ```c
